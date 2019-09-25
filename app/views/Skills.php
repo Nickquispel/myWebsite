@@ -36,7 +36,7 @@
   <div class="main"><div class="title"> Projects</div>
   <div class="text">
 <ul>
-    <li><a href="https://github.com/Nickquispel/myCalculator" target="blank"> My Calculator</li>
+    <li><a href="https://github.com/Nickquispel/myCalculator" target="blank"> My Calculator</a>&nbsp(Java)</li>
 </ul>
 </div>
 

@@ -4,11 +4,11 @@
 <?php require "../../core/database/Connection.php"; ?>
 
 <h1> Contact</h1>
-
+<div class="text">
 <div class="container">
   <form action="/core/form-to-email.php" method="post">
 
-    <label for="name">First Name</label>
+    <label for="name">Name</label>
     <input type="text" id="name" name="name" placeholder="Your name..">
 
     <label for="email">Email</label>
@@ -18,7 +18,7 @@
     <select id="country" name="country">
     <?php 
     foreach ($countries as $country => $value) : ?>
-      <option value="<?= $value['id'] ?>"><?= $value['country'] ?></option>
+      <option value="<?= $value['country'] ?>"><?= $value['country'] ?></option>
       <?php endforeach;?>
       <option value="australia">Australia</option>
       <option value="canada">Canada</option>
@@ -31,6 +31,7 @@
     <input type="submit" value="Submit">
 
   </form>
+</div>
 </div>
  
 
