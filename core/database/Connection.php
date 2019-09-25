@@ -21,6 +21,18 @@ try {
      die($e->getMessage());
 }
 
+
+$statement = $pdo->prepare('select * from countries');
+$statement->execute();
+
+$countries = $statement->fetchAll();
+
+
+
+
+
+
+
 // try{
 //     $pdo = new PDO('mysql:host=mysql57-2;dbname=nick_test3','xsarus','xsarus');
 // } catch (PDOException $e){

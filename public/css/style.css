@@ -1,9 +1,20 @@
+
+html{
+position:relative;
+min-height: 100%
+}
+body {
+  margin: 0 0 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Style the header */
 .header {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     padding: 60px;
     text-align: center;
     background: #1abc9c;
-    color: #f1f1f1;
+    color: #ffffff;
     background-image: url(/public/img/giphy.gif);
     display:block;
     position:relative;
@@ -54,19 +65,23 @@
   .row {
     display: flex;
     flex-wrap: wrap;
+    height:initial;
   }
   
   /* Create two unequal columns that sits next to each other */
   /* Sidebar/left column */
   .side {
-    flex: 30%; /* Set the width of the sidebar */
+    flex: 20%; /* Set the width of the sidebar */
     background-color: #f1f1f1; /* Grey background color */
     padding: 20px; /* Some padding */
+  }
+  .text{
+    font-family: 'Ubuntu', sans-serif;;
   }
   
   /* Main column */
   .main {
-    flex: 70%; /* Set the width of the main content */
+    flex: 50%; /* Set the width of the main content */
     background-color: white; /* White background color */
     padding: 20px; /* Some padding */
   }
@@ -95,6 +110,7 @@
     right: 0;
     bottom: 0;
     left: 0;
+    width: 100%;
   }
 
   /* Style all font awesome icons */
@@ -135,6 +151,11 @@
   background: #333;
   color: white;
 }
+
+.fa-envelope {
+  background: #000000;
+  color: white;
+}
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
@@ -169,3 +190,103 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+
+.container2{
+  left:0%;
+}
+.container2{
+  left:50%;
+}
+
+.left{
+  left:0;
+}
+.right{
+  right:10%;
+}
+
+.content{
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 20px;
+}
+
+.devicon-android-plain-wordmark {
+  padding: 60px;  
+  font-size: 6rem
+}
+
+.devicon-css3-plain-wordmark{
+  padding: 60px;
+  font-size: 6rem;
+}
+.devicon-docker-plain-wordmark{
+  padding: 60px;
+  font-size:6rem
+}
+.devicon-git-plain-wordmark{
+  padding: 60px;
+  font-size:6rem
+}
+.devicon-github-plain-wordmark{
+  padding: 60px;
+  font-size:6rem
+}
+.devicon-gitlab-plain-wordmark{
+  padding: 60px;
+  font-size:6rem 
+}
+.devicon-gradle-plain-wordmark{
+  padding: 60px;
+  font-size:6rem 
+}
+.devicon-grunt-line-wordmark{
+  padding: 60px;
+  font-size:6rem 
+}
+.devicon-html5-plain-wordmark{
+  padding: 60px;
+  font-size:6rem 
+}
+.devicon-java-plain-wordmark{
+  padding: 60px;
+  font-size:6rem
+}
+.devicon-linux-plain{
+  padding: 60px;
+  font-size:6rem
+}
+.devicon-mysql-plain{
+  padding: 60px;
+  font-size:6rem
+}
+.devicon-php-plain{
+  padding: 60px;
+  font-size:6rem
+}
+.devicon-visualstudio-plain{
+  padding: 60px;
+  font-size:6rem
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.title{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 5rem;
+}
+
+
+
+
+

@@ -5,19 +5,19 @@
       type= "image/png"
       href="/public/img/icon.png">
 <link rel="stylesheet" href="/public/css/style.css">
+<link rel="stylesheet" href= "https://fonts.googleapis.com/css?family=Bungee Inline">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 <title>Nick Quispel</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 
 </style>
 </head>
 <div class="header">
-<div class="text"><h1>Nick Quispel</h1></div>
+<div class="text"><h1>Build from scratch  redesigned for you</h1></div>
 </div>
 
 
